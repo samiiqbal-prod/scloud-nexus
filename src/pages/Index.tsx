@@ -58,7 +58,6 @@ const Index = () => {
   const benefits = [
     "99.99% uptime guarantee",
     "24/7 expert support",
-    "Global data centers",
     "Pay-as-you-scale pricing",
     "Enterprise security compliance",
     "One-click deployments"
@@ -74,11 +73,10 @@ const Index = () => {
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Cloud className="w-8 h-8 text-primary" />
-              <span className="text-2xl font-bold gradient-text">CloudInfra</span>
+              <span className="text-2xl font-bold gradient-text">SCloud</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">Features</a>
-              <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">Pricing</a>
               <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">Contact</a>
               <Button variant="outline" className="glow-effect">Login</Button>
               <Button className="glow-effect">Get Started</Button>
@@ -152,7 +150,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
               <MouseParallax key={index} intensity={0.3}>
-                <Card className="p-8 bg-card/50 backdrop-blur-sm border-border/50 hover:bg-card/70 transition-all duration-300 group floating-animation">
+                <Card className="p-8 bg-card/50 backdrop-blur-sm border-border/50 hover:bg-card/70 transition-all duration-300 group">
                   <div className="text-primary mb-4 group-hover:scale-110 transition-transform duration-300">
                     {feature.icon}
                   </div>
@@ -238,7 +236,7 @@ const Index = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-20">
               <h2 className="text-5xl font-bold mb-6 gradient-text">
-                Why Choose CloudInfra?
+                Why Choose SCloud?
               </h2>
               <p className="text-xl text-muted-foreground">
                 Industry-leading infrastructure with unmatched reliability
@@ -290,7 +288,7 @@ const Index = () => {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Cloud className="w-6 h-6 text-primary" />
-                <span className="text-xl font-bold gradient-text">CloudInfra</span>
+                <span className="text-xl font-bold gradient-text">SCloud</span>
               </div>
               <p className="text-muted-foreground">
                 Enterprise-grade infrastructure for modern applications.
@@ -325,7 +323,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-border/50 mt-12 pt-8 text-center text-muted-foreground">
-            <p>&copy; 2024 CloudInfra. All rights reserved.</p>
+            <p>&copy; 2024 SCloud. All rights reserved.</p>
           </div>
         </div>
       </footer>
